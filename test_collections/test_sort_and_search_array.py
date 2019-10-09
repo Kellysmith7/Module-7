@@ -1,6 +1,7 @@
 import unittest
 from fun_with_collections import sort_and_search_array
 
+
 class MyTestCase(unittest.TestCase):
     def test_search(self):
         f = [2, 3, 4, 9]
