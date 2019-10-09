@@ -7,7 +7,7 @@ class MyTestCase(unittest.TestCase):
         f = [2, 3, 4, 9]
         value = 5
         expected_result = -1
-        self.assertEqual(-1, sort_and_search_array.search_array([2, 3, 4, 9], 5))
+        self.assertEqual(-1, sort_and_search_array.search_array([2, 3, 4, 9], 4))
 
     # def test_sort(self):
     #     c = arr.array('d', [1.2, 6.3, 5.4])
